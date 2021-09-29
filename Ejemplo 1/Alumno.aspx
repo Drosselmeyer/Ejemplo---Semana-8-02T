@@ -20,12 +20,7 @@
     <form id="form1" runat="server">  
         <div>  
             <table class="auto-style1">  
-                <tr>  
-                    <td class="auto-style2">  
-                       <asp:Label runat="server" Text="Id" ID="Label8"></asp:Label></td>  
-                    <td>  
-                       <asp:TextBox ID="txtId" runat="server"></asp:TextBox></td>  
-                </tr>  
+                
                 <tr>  
                     <td class="auto-style2">  
                        <asp:Label runat="server" Text="Carnet" ID="usernamelabelId"></asp:Label></td>  
@@ -47,39 +42,26 @@
                 <tr>  
                     <td class="auto-style2"></td>  
                     <td>  
-                        <asp:Button ID="ButtonId" runat="server" Text="Guardar" OnClick="ButtonId_Click" /></td>  
+                        <asp:Button ID="ButtonId" runat="server" Text="Guardar" OnClick="ButtonId_Click" />
+                        <asp:Button ID="btnMostrar" runat="server" OnClick="btnMostrar_Click" Text="Mostrar" />
+                    </td>  
                 </tr>  
             </table>  
         </div>  
-    <div>  
-        <asp:Label ID="Label1" runat="server"></asp:Label>  
-    </div>  
+ 
     </form>  
-    <table class="auto-style1">  
-        <tr>  
-            <td class="auto-style3">  
-                <asp:Label ID="lblIdHead" runat="server"></asp:Label></td>  
-            <td>  
-                <asp:Label ID="lblId" runat="server"></asp:Label></td>  
-        </tr>  
-        <tr>  
-            <td class="auto-style3">  
-                <asp:Label ID="lblCarnetHead" runat="server"></asp:Label></td>  
-            <td>  
-                <asp:Label ID="lblCarnet" runat="server"></asp:Label></td>  
-        </tr>  
-        <tr>  
-            <td class="auto-style3">  
-                <asp:Label ID="lblNombreHead" runat="server"></asp:Label></td>  
-            <td>  
-                <asp:Label ID="lblNombre" runat="server"></asp:Label></td>  
-        </tr>  
-        <tr>  
-            <td class="auto-style3">  
-                <asp:Label ID="lblCarreraHead" runat="server"></asp:Label></td>  
-            <td>  
-                <asp:Label ID="lblCarrera" runat="server"></asp:Label></td>  
-        </tr> 
-    </table>  
+    <asp:Table runat="server" id="tbConsulta">  
+        <asp:TableRow>  
+            <asp:TableCell>  
+                <asp:Label ID="lblIdHead" runat="server"></asp:Label></asp:TableCell>  
+            <asp:TableCell>   
+               <asp:Label ID="lblCarnetHead" runat="server"></asp:Label></asp:TableCell>  
+             <asp:TableCell>  
+                <asp:Label ID="lblNombreHead" runat="server"></asp:Label></asp:TableCell>  
+            <asp:TableCell>  
+                <asp:Label ID="lblCarreraHead" runat="server"></asp:Label></asp:TableCell>  
+        </asp:TableRow>  
+        
+    </asp:Table>  
     </body>  
 </html>  

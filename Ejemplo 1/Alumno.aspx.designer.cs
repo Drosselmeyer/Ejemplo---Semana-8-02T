@@ -22,24 +22,6 @@ namespace Ejemplo_1 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Label8 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label8;
-        
-        /// <summary>
-        /// txtId control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtId;
-        
-        /// <summary>
         /// usernamelabelId control.
         /// </summary>
         /// <remarks>
@@ -85,13 +67,22 @@ namespace Ejemplo_1 {
         protected global::System.Web.UI.WebControls.Button ButtonId;
         
         /// <summary>
-        /// Label1 control.
+        /// btnMostrar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Button btnMostrar;
+        
+        /// <summary>
+        /// tbConsulta control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table tbConsulta;
         
         /// <summary>
         /// lblIdHead control.
@@ -103,15 +94,6 @@ namespace Ejemplo_1 {
         protected global::System.Web.UI.WebControls.Label lblIdHead;
         
         /// <summary>
-        /// lblId control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblId;
-        
-        /// <summary>
         /// lblCarnetHead control.
         /// </summary>
         /// <remarks>
@@ -119,15 +101,6 @@ namespace Ejemplo_1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCarnetHead;
-        
-        /// <summary>
-        /// lblCarnet control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCarnet;
         
         /// <summary>
         /// lblNombreHead control.
@@ -139,15 +112,6 @@ namespace Ejemplo_1 {
         protected global::System.Web.UI.WebControls.Label lblNombreHead;
         
         /// <summary>
-        /// lblNombre control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNombre;
-        
-        /// <summary>
         /// lblCarreraHead control.
         /// </summary>
         /// <remarks>
@@ -155,14 +119,5 @@ namespace Ejemplo_1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCarreraHead;
-        
-        /// <summary>
-        /// lblCarrera control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCarrera;
     }
 }
